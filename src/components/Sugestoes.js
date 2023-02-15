@@ -13,67 +13,25 @@ export default function sugestoes(){
             Sugestões para você
             <div>Ver tudo</div>
           </div>
-
-          <div class="sugestao">
-            <div class="usuario">
-              <img src="assets/img/faragonda.jpg" alt="faragonda"/>
-              <div class="texto">
-                <div class="nome">faragonda</div>
-                <div class="razao">Segue você</div>
-              </div>
-            </div>
-
-            <div class="seguir">Seguir</div>
-          </div>
-
-          <div class="sugestao">
-            <div class="usuario">
-              <img src="assets/img/diasporo.jpg" alt="diasporo"/>
-              <div class="texto">
-                <div class="nome">diasporo</div>
-                <div class="razao">Novo no Instagram</div>
-              </div>
-            </div>
-
-            <div class="seguir">Seguir</div>
-          </div>
-
-          <div class="sugestao">
-            <div class="usuario">
-              <img src="assets/img/riven.jpg" alt="riven" />
-              <div class="texto">
-                <div class="nome">riven</div>
-                <div class="razao">Novo no Instagram</div>
-              </div>
-            </div>
-
-            <div class="seguir">Seguir</div>
-          </div>
-
-          <div class="sugestao">
-            <div class="usuario">
-              <img src="assets/img/icy.jpg" alt="icy"/>
-              <div class="texto">
-                <div class="nome">icy</div>
-                <div class="razao">Segue você</div>
-              </div>
-            </div>
-
-            <div class="seguir">Seguir</div>
-          </div>
-
-          <div class="sugestao">
-            <div class="usuario">
-              <img src="assets/img/storm.jpg" alt="storm"/>
-              <div class="texto">
-                <div class="nome">storm</div>
-                <div class="razao">Segue você</div>
-              </div>
-            </div>
-
-            <div class="seguir">Seguir</div>
-          </div>
+          {sugestoes.map((s) => <Sugestao key = {s.name} name ={s.name} image={s.image}/>)}
+          
         </div>
         </div>
     )
+}
+
+function Sugestao(props){
+  return(
+    <div class="sugestao">
+            <div class="usuario">
+              <img src={props.image} alt={props.name}/>
+              <div class="texto">
+                <div class="nome">{props.name}</div>
+                <div class="razao">{props.reason}</div>
+              </div>
+            </div>
+
+            <div class="seguir">Seguir</div>
+          </div>
+  )
 }
