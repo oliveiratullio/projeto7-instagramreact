@@ -1,5 +1,14 @@
 export default function Stories(){
-
+  const stories = [
+    {nome:"bloom", image: "assets/img/bloom.jpg"},
+    {nome:"stella", image: "assets/img/stella.jpg"},
+    {nome:"flora", image: "assets/img/flora.jpg"},
+    {nome:"musa", image: "assets/img/musa.jpg"},
+    {nome:"aysha", image: "assets/img/aysha.jpg"},
+    {nome:"tecna", image: "assets/img/tecna.jpg"},
+    {nome:"sky", image: "assets/img/sky.jpg"},
+    {nome:"roxy", image: "assets/img/roxy.jpg"}
+  ];
     return(
         
 

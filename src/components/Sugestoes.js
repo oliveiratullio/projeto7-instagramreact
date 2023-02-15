@@ -1,4 +1,11 @@
 export default function sugestoes(){
+  const sugestoes = [
+    {name:"faragonda" , image:"assets/img/faragonda.jpg" , reason: "Segue você" },
+    {name:"diasporo" , image:"assets/img/diasporo.jpg" , reason: "Novo no Istagram" },
+    {name:"riven" , image:"assets/img/riven.jpg" , reason: "Segue você" },
+    {name:"icy" , image:"assets/img/icy.jpg" , reason: "Segue você" },
+    {name:"storm" , image:"assets/img/storm.jpg" , reason: "Segue você" }
+  ];
     return(
         <div>
             <div class="sugestoes">

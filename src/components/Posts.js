@@ -1,11 +1,34 @@
 export default function Posts(){
+  const posts =[
+    {userName: "bloom",
+    userImage: "assets/img/bloom.jpg",
+    postImage: "assets/img/kiko.jpg",
+    likedByImage: "assets/img/stella.jpg" ,
+    likeByName: "stella",
+    likes: 101523
+    },
+    {userName: "flora",
+    userImage: "assets/img/flora.jpg",
+    postImage: "assets/img/floresta.jpg",
+    likedByImage: "assets/img/aysha.jpg" ,
+    likeByName: "aysha",
+    likes: 99159
+    },
+    {userName: "stella",
+    userImage: "assets/img/stella.jpg",
+    postImage: "assets/img/stella-enchantix.jpg",
+    likedByImage: "assets/img/musa.jpg" ,
+    likeByName: "musa",
+    likes: 120159
+    }
+  ];
     return(
         <div>
             <div class="posts">
           <div class="post">
             <div class="topo">
               <div class="usuario">
-                <img src="assets/img/kiko.jpg" alt="kiko"/>
+                <img src="assets/img/bloom.jpg" alt="kiko"/>
                 bloom
               </div>
               <div class="acoes">
@@ -103,7 +126,7 @@ export default function Posts(){
               <div class="curtidas">
                 <img src="assets/img/musa.jpg" alt="adorable_animals"/>
                 <div class="texto">
-                  Curtido por <strong>musa</strong> e <strong>outras 99.159 pessoas</strong>
+                  Curtido por <strong>musa</strong> e <strong>outras 120.159 pessoas</strong>
                 </div>
               </div>
             </div>
