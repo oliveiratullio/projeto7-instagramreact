@@ -38,11 +38,28 @@ export default function Posts(){
 }
 function Post(props){
   const [salvar, setSalvar] = useState(false)
+  const [curtir, setCurtir] = useState(false)
+  const [qtdCurtidas, setQtdCurtidas] = useState(props.likes)
   function salvarDessalvar(){
     if(salvar === true){
       setSalvar(false)
     }else {
       setSalvar(true);
+    }
+  }
+  function curtirDescurtir(){
+    if(curtir === false){
+      setCurtir(true)
+      setQtdCurtidas(qtdCurtidas + 1)
+    }else{
+      setCurtir(false)
+      setQtdCurtidas(qtdCurtidas - 1)
+    }
+  }
+  function curtirImagem(){
+    if(curtir === false ){
+      setCurtir(true)
+      setQtdCurtidas(qtdCurtidas +1)
     }
   }
   return(   <div data-test="post" class="post">
@@ -57,13 +74,13 @@ function Post(props){
             </div>
 
             <div class="conteudo">
-              <img src={props.postImage} alt={props.userName}/>
+              <img onClick={curtirImagem} src={props.postImage} alt={props.userName}/>
             </div>
 
             <div class="fundo">
               <div class="acoes">
                 <div>
-                  <ion-icon name="heart-outline"></ion-icon>
+                  <ion-icon class={curtir ? "vermelho" : "  "} onClick={curtirDescurtir} name={curtir ? "heart" : "heart-outline"}></ion-icon>
                   <ion-icon name="chatbubble-outline"></ion-icon>
                   <ion-icon name="paper-plane-outline"></ion-icon>
                 </div>
@@ -75,7 +92,7 @@ function Post(props){
               <div class="curtidas">
                 <img src={props.likedByImage} alt="respondeai"/>
                 <div class="texto">
-                  Curtido por <strong>{props.likeByName}</strong> e <strong  data-test="likes-number" >outras 101.523 pessoas</strong>
+                  Curtido por <strong>{props.likeByName}</strong> e <strong  data-test="likes-number" >outras {qtdCurtidas} pessoas</strong>
                 </div>
               </div>
             </div>
