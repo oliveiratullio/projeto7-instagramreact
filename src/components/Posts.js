@@ -35,10 +35,10 @@ export default function Posts(){
     )
 }
 function Post(props){
-  return(   <div class="post">
+  return(   <div data-test="post" class="post">
             <div class="topo">
               <div class="usuario">
-                <img src={props.userImage} alt={props.userName}/>
+                <img data-test="post-image" src={props.userImage} alt={props.userName}/>
                 {props.userName}
               </div>
               <div class="acoes">
@@ -58,14 +58,14 @@ function Post(props){
                   <ion-icon name="paper-plane-outline"></ion-icon>
                 </div>
                 <div>
-                  <ion-icon name="bookmark-outline"></ion-icon>
+                  <ion-icon data-test="save-post" name="bookmark-outline"></ion-icon>
                 </div>
               </div>
 
               <div class="curtidas">
                 <img src={props.likedByImage} alt="respondeai"/>
                 <div class="texto">
-                  Curtido por <strong>{props.likeByName}</strong> e <strong>outras 101.523 pessoas</strong>
+                  Curtido por <strong>{props.likeByName}</strong> e <strong  data-test="likes-number" >outras 101.523 pessoas</strong>
                 </div>
               </div>
             </div>

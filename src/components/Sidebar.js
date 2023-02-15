@@ -5,7 +5,7 @@ export default function Sidebar(){
     return(
         <div>
             <div class="sidebar">
-                <Usuario />
+                <Usuario name={"darkbloom"} image={"assets/img/darkbloom.jpg"}/>
 
                 <Sugestoes />
 
