@@ -1,76 +1,79 @@
 export default function Stories(){
+
     return(
+        
+
         <div>
             <div class="stories">
           <div class="story">
             <div class="imagem">
-              <img src="assets/img/9gag.svg" alt="9gag"/>
+              <img src="assets/img/bloom.jpg" alt="bloom"/>
             </div>
             <div class="usuario">
-              9gag
+              bloom
             </div>
           </div>
 
           <div class="story">
             <div class="imagem">
-              <img src="assets/img/meowed.svg" alt="meowed"/>
+              <img src="assets/img/stella.jpg" alt="stella"/>
             </div>
             <div class="usuario">
-              meowed
+              stella
             </div>
           </div>
 
           <div class="story">
             <div class="imagem">
-              <img src="assets/img/barked.svg" alt="barked"/>
+              <img src="assets/img/flora.jpg" alt="flora"/>
             </div>
             <div class="usuario">
-              barked
+              flora
             </div>
           </div>
 
           <div class="story">
             <div class="imagem">
-              <img src="assets/img/nathanwpylestrangeplanet.svg" alt="nathanwpylestrangeplanet"/>
+              <img src="assets/img/musa.jpg" alt="musa"/>
             </div>
             <div class="usuario">
-              nathanwpylestrangeplanet
+              musa
             </div>
           </div>
 
           <div class="story">
             <div class="imagem">
-              <img src="assets/img/wawawicomics.svg" alt="wawawicomics"/>
+              <img src="assets/img/aysha.jpg" alt="aysha"/>
             </div>
             <div class="usuario">
-              wawawicomics
+              aysha
             </div>
           </div>
 
           <div class="story">
             <div class="imagem">
-              <img src="assets/img/respondeai.svg" alt="respondeai"/>
+              <img src="assets/img/tecna.jpg" alt="tecna"/>
             </div>
             <div class="usuario">
-              respondeai
+              tecna
             </div>
           </div>
 
           <div class="story">
             <div class="imagem">
-              <img src="assets/img/filomoderna.svg" alt="filomoderna"/>
+              <img src="assets/img/sky.jpg" alt="sky"/>
             </div>
             <div class="usuario">
-              filomoderna
+              sky
             </div>
           </div>
 
           <div class="story">
             <div class="imagem">
-              <img src="assets/img/memeriagourmet.svg" alt="memeriagourmet"/>
+              <img src="assets/img/roxy.jpg" alt="roxy"/>
             </div>
             <div class="usuario">
-              memeriagourmet
+              roxy
             </div>
           </div>
 

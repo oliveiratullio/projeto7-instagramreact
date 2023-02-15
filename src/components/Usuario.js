@@ -2,10 +2,10 @@ export default function Usuario(){
     return(
         <div>
             <div class="usuario">
-          <img src="assets/img/catanacomics.svg" alt="imagem de perfil"/>
+          <img src="assets/img/darkbloom.jpg" alt="imagem de perfil"/>
           <div class="texto">
             <span>
-              <strong>catanacomics</strong>
+              <strong>darkbloom</strong>
               <ion-icon name="pencil"></ion-icon>
             </span>
           </div>

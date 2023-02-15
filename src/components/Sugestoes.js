@@ -9,9 +9,9 @@ export default function sugestoes(){
 
           <div class="sugestao">
             <div class="usuario">
-              <img src="assets/img/bad.vibes.memes.svg" alt="bad.vibes.memes.svg"/>
+              <img src="assets/img/faragonda.jpg" alt="faragonda"/>
               <div class="texto">
-                <div class="nome">bad.vibes.memes</div>
+                <div class="nome">faragonda</div>
                 <div class="razao">Segue você</div>
               </div>
             </div>
@@ -21,21 +21,9 @@ export default function sugestoes(){
 
           <div class="sugestao">
             <div class="usuario">
-              <img src="assets/img/chibirdart.svg" alt="chibirdart"/>
+              <img src="assets/img/diasporo.jpg" alt="diasporo"/>
               <div class="texto">
-                <div class="nome">chibirdart</div>
-                <div class="razao">Segue você</div>
-              </div>
-            </div>
-
-            <div class="seguir">Seguir</div>
-          </div>
-
-          <div class="sugestao">
-            <div class="usuario">
-              <img src="assets/img/razoesparaacreditar.svg" alt="razoesparaacreditar" />
-              <div class="texto">
-                <div class="nome">razoesparaacreditar</div>
+                <div class="nome">diasporo</div>
                 <div class="razao">Novo no Instagram</div>
               </div>
             </div>
@@ -45,9 +33,21 @@ export default function sugestoes(){
 
           <div class="sugestao">
             <div class="usuario">
-              <img src="assets/img/adorable_animals.svg" alt="adorable_animals"/>
+              <img src="assets/img/riven.jpg" alt="riven" />
               <div class="texto">
-                <div class="nome">adorable_animals</div>
+                <div class="nome">riven</div>
+                <div class="razao">Novo no Instagram</div>
+              </div>
+            </div>
+
+            <div class="seguir">Seguir</div>
+          </div>
+
+          <div class="sugestao">
+            <div class="usuario">
+              <img src="assets/img/icy.jpg" alt="icy"/>
+              <div class="texto">
+                <div class="nome">icy</div>
                 <div class="razao">Segue você</div>
               </div>
             </div>
@@ -57,9 +57,9 @@ export default function sugestoes(){
 
           <div class="sugestao">
             <div class="usuario">
-              <img src="assets/img/smallcutecats.svg" alt="smallcutecats"/>
+              <img src="assets/img/storm.jpg" alt="storm"/>
               <div class="texto">
-                <div class="nome">smallcutecats</div>
+                <div class="nome">storm</div>
                 <div class="razao">Segue você</div>
               </div>
             </div>
